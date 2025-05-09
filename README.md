@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> e668728da9c837482f48d012d3a62565144b41fe
 《玉永军）
 
 
 项目结构截图：
+<<<<<<< HEAD
 
 ![alt text](ec63a145ef3bf7c01bf51a79b826b94.png)
+=======
+![alt text](image-1.png)
+
+>>>>>>> e668728da9c837482f48d012d3a62565144b41fe
 
 
 项目功能：
@@ -28,5 +37,9 @@
 小文本选项（Small Text Options）：
 身体、导航栏、品牌、侧边栏导航、页脚：控制这些元素的小文本显示。
 导航栏变体（Navbar Variants）：
+<<<<<<< HEAD
 
 ![alt text](ec63a145ef3bf7c01bf51a79b826b94-1.png)
+=======
+![alt text](image-2.png)
+>>>>>>> e668728da9c837482f48d012d3a62565144b41fe
