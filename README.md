@@ -1,24 +1,32 @@
-# DjangoForEveryone
-
-## A repository for JimShapedCoding Django Tutorials
-
-### Architecture of this repository:
-
- - baseapp - A Django application that I will work on, throughout some of my tutorials to explain and show topics.
-   - This app includes a very basic customization, for visualizing data nice. And also templates/static directories being created there
- - In order to see more content on this repo, checkout to other branches like `post-tutorial`, to see the project status after I finish working on, in some tutorial.
+《玉永军）
 
 
- 克隆组长仓库
- 到我的仓库
- ![alt text](<屏幕截图 2025-05-09 171914.png>)
-![alt text](<屏幕截图 2025-05-09 172040.png>)
-![alt text](<屏幕截图 2025-05-09 172121.png>)
+项目结构截图：
 
-在VScode上克隆我的仓库进行编辑和提交到我的仓库
-![alt text](image.png)
-配置依赖和环境
-通过ai可以了解到怎么创建虚拟环境
-创建venv虚拟环境运行项目并启动项目
-![alt text](<屏幕截图 2025-05-09 140124.png>)
-![alt text](<屏幕截图 2025-05-09 140551.png>)
+![alt text](ec63a145ef3bf7c01bf51a79b826b94.png)
+
+
+项目功能：
+深色模式（Dark Mode）：
+允许用户切换到深色主题。
+标题选项（Header Options）：
+固定：固定头部导航栏。
+下拉列表旧版偏移：为下拉菜单提供旧版的偏移。
+无边框：移除头部导航栏的边框。
+侧边栏选项（Sidebar Options）：
+折叠：允许侧边栏折叠。
+固定：固定侧边栏位置。
+侧边栏迷你（Mini MD/XS）：提供不同大小的迷你侧边栏。
+导航平面样式：使用平面样式的导航。
+导航旧版样式：使用旧版的导航样式。
+导航紧凑：使导航更加紧凑。
+导航子项缩进：增加导航子项的缩进。
+导航子项在折叠时隐藏：在侧边栏折叠时隐藏导航子项。
+禁用悬停/焦点自动展开：禁用悬停或焦点时的自动展开功能。
+页脚选项（Footer Options）：
+固定：固定页脚位置。
+小文本选项（Small Text Options）：
+身体、导航栏、品牌、侧边栏导航、页脚：控制这些元素的小文本显示。
+导航栏变体（Navbar Variants）：
+
+![alt text](ec63a145ef3bf7c01bf51a79b826b94-1.png)
