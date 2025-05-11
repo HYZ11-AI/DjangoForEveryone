@@ -20,10 +20,12 @@ cd j
 
 python -m venv myenv
 激活虚拟环境
-myenv\Scripts\activate
+myenv\Scripts\activates
 
 ### 启动项目
 启动项目
 python manage.py runserver
 
-项目将运行在  http://127.0.0.1:8001/
+项目将运行在  http://127.0.0.1:8001/ 
+
+11s
