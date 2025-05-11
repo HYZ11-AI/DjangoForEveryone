@@ -9,16 +9,21 @@
  - In order to see more content on this repo, checkout to other branches like `post-tutorial`, to see the project status after I finish working on, in some tutorial.
 
 
- 克隆组长仓库
- 到我的仓库
- ![alt text](<屏幕截图 2025-05-09 171914.png>)
-![alt text](<屏幕截图 2025-05-09 172040.png>)
-![alt text](<屏幕截图 2025-05-09 172121.png>)
+### 克隆项目
 
-在VScode上克隆我的仓库进行编辑和提交到我的仓库
-![alt text](image.png)
-配置依赖和环境
-通过ai可以了解到怎么创建虚拟环境
-创建venv虚拟环境运行项目并启动项目
-![alt text](<屏幕截图 2025-05-09 140124.png>)
-![alt text](<屏幕截图 2025-05-09 140551.png>)
+```bash
+git clone https://github.com/2217481412huang/j.git
+cd j
+
+
+### 安装依赖
+
+python -m venv myenv
+激活虚拟环境
+myenv\Scripts\activate
+
+### 启动项目
+启动项目
+python manage.py runserver
+
+项目将运行在  http://127.0.0.1:8001/
