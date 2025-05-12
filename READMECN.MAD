@@ -1,0 +1,40 @@
+# 🇨🇳 中文版 README.md 示例
+-----黄扬智
+
+
+# SimpleTodo
+
+一个简单易用的待办事项管理工具，支持任务添加、完成、删除等操作，适用于个人时间管理与任务清单维护。
+
+## ✨ 项目特点
+
+- 📝 添加、编辑、删除任务
+- ✅ 勾选已完成任务
+- 💾 数据保存在浏览器中（LocalStorage）
+- 🎨 响应式界面，适配手机和PC
+
+## 🚀 快速开始
+------黄扬智
+
+
+
+------黄界靖
+### 克隆项目
+
+git clone https://github.com/2217481412huang/j.git
+cd j
+
+
+### 安装依赖
+
+python -m venv myenv
+激活虚拟环境
+myenv\Scripts\activates
+
+### 启动项目
+启动项目
+python manage.py runserver
+
+项目将运行在  http://127.0.0.1:8001/ 
+------黄界靖
+
