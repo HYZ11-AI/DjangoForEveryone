@@ -1,45 +1,38 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> e668728da9c837482f48d012d3a62565144b41fe
-《玉永军）
-
-
-项目结构截图：
-<<<<<<< HEAD
-
-![alt text](ec63a145ef3bf7c01bf51a79b826b94.png)
-=======
-![alt text](image-1.png)
-
->>>>>>> e668728da9c837482f48d012d3a62565144b41fe
-
-
-项目功能：
-深色模式（Dark Mode）：
-允许用户切换到深色主题。
-标题选项（Header Options）：
-固定：固定头部导航栏。
-下拉列表旧版偏移：为下拉菜单提供旧版的偏移。
-无边框：移除头部导航栏的边框。
-侧边栏选项（Sidebar Options）：
-折叠：允许侧边栏折叠。
-固定：固定侧边栏位置。
-侧边栏迷你（Mini MD/XS）：提供不同大小的迷你侧边栏。
-导航平面样式：使用平面样式的导航。
-导航旧版样式：使用旧版的导航样式。
-导航紧凑：使导航更加紧凑。
-导航子项缩进：增加导航子项的缩进。
-导航子项在折叠时隐藏：在侧边栏折叠时隐藏导航子项。
-禁用悬停/焦点自动展开：禁用悬停或焦点时的自动展开功能。
-页脚选项（Footer Options）：
-固定：固定页脚位置。
-小文本选项（Small Text Options）：
-身体、导航栏、品牌、侧边栏导航、页脚：控制这些元素的小文本显示。
-导航栏变体（Navbar Variants）：
-<<<<<<< HEAD
-
-![alt text](ec63a145ef3bf7c01bf51a79b826b94-1.png)
-=======
-![alt text](image-2.png)
->>>>>>> e668728da9c837482f48d012d3a62565144b41fe
+SimpleTodo/
+├── public/               # 静态资源
+│   └── index.html        # 主页面模板
+├── src/                  # 前端 Vue.js 应用
+│   ├── components/       # Vue 组件
+│   │   └── TodoItem.vue  # 单个待办事项组件
+│   ├── App.vue           # 主界面
+│   ├── main.js           # 启动入口
+│   └── assets/           # 静态资源（如CSS、图片等）
+│       └── styles.css    # 全局样式
+├── backend/              # 后端 Django 应用
+│   ├── baseapp/          # Django 项目目录
+│   │   ├── __init__.py
+│   │   ├── settings.py   # 配置文件
+│   │   ├── urls.py       # URL 路由配置
+│   │   ├── wsgi.py
+│   │   └── asgi.py
+│   ├── DjangoExtensions/ # Django 扩展应用
+│   │   ├── __init__.py
+│   │   ├── settings.py   # 配置文件
+│   │   ├── urls.py       # URL 路由配置
+│   │   ├── wsgi.py
+│   │   └── asgi.py
+│   ├── ExtendUserModel/  # 用户模型扩展应用
+│   │   ├── __init__.py
+│   │   ├── models.py     # 数据库模型
+│   │   ├── views.py      # 视图函数
+│   │   └── urls.py       # URL 路由配置
+│   ├── db.sqlite3        # 数据库文件
+│   ├── manage.py         # Django 管理脚本
+│   └── README.md         # 后端项目说明
+├── package.json          # 前端项目依赖
+├── README.md             # 项目说明
+└── venv/                 # 虚拟环境目录
+    ├── Lib
+    ├── bin
+    ├── include
+    └── lib
