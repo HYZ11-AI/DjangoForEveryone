@@ -76,6 +76,69 @@ SimpleTodo/
     └── lib  
 ------ Huang Zhaomin
 
+------ Liang Huafeng, Yu Yongjun
 
+Key Features and Screenshots
+Sidebar Navigation:
+
+Multiple sidebar style options: Mini, XS, Flat, Legacy, Compact, Child Indent
+
+Configurable submenu behavior (hide on collapse)
+
+Toggle hover/focus auto-expand functionality
+
+Layout Options:
+
+Fixed page layout toggle
+
+Text Size Customization:
+
+Adjustable text sizes for: Body, Navbar, Brand, Sidebar Navigation, Footer
+
+Navbar Variants:
+
+Color variants: White, Accent, Dark Sidebar, Light Sidebar
+
+Brand Logo Variants:
+
+Customizable logo color schemes
+
+Copyright Information:
+
+Footer displays copyright: "Developed by AdminLTE.io © 2014-2021"
+
+User Profile:
+
+Top-right displays user information (avatar, username, etc.)
+
+Responsive Design:
+
+Adapts to various screen sizes and devices
+
+Theme Customization:
+
+Multiple theme and color scheme options
+
+Multi-language Support:
+
+Built-in internationalization capabilities
+
+Security Features:
+
+User authentication and permission management
+
+Extensibility:
+
+Modular architecture for easy feature expansion
+
+Project Screenshot:
+System Interface
+Image shows the admin dashboard interface of the management system.
+
+Additional runtime screenshots available in the /images directory
+
+------ Liang Huafeng, Yu Yongjun
+
+English version translated by chenjianli
 
 
