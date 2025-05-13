@@ -33,6 +33,49 @@ http://127.0.0.1:8001/
 
 ------ Huang Jiejing
 
+------ Huang Zhaomin
+Project Structure
+
+SimpleTodo/  
+├── public/               # Static assets (contains frontend build files)  
+│   └── index.html        # Frontend application entry point  
+├── src/                  # Vue.js frontend application  
+│   ├── components/       # Vue components  
+│   │   └── TodoItem.vue  # Single todo item component  
+│   ├── App.vue           # Main interface  
+│   ├── main.js           # Application entry point  
+│   └── assets/           # Static assets (CSS, images, etc.)  
+│       └── styles.css    # Global styles  
+├── backend/              # Django backend application  
+│   ├── baseapp/          # Django project directory  
+│   │   ├── __init__.py  
+│   │   ├── settings.py   # Configuration  
+│   │   ├── urls.py       # URL routing  
+│   │   ├── wsgi.py  
+│   │   └── asgi.py  
+│   ├── DjangoExtensions/ # Django extension apps (if needed)  
+│   │   ├── __init__.py  
+│   │   ├── settings.py   # Configuration  
+│   │   ├── urls.py       # URL routing  
+│   │   ├── wsgi.py  
+│   │   └── asgi.py  
+│   ├── ExtendUserModel/  # Extended user model app  
+│   │   ├── __init__.py  
+│   │   ├── models.py     # Database models  
+│   │   ├── views.py      # View functions  
+│   │   └── urls.py       # URL routing  
+│   ├── db.sqlite3        # Database file  
+│   ├── manage.py         # Django management script  
+│   └── README.md         # Backend documentation  
+├── package.json          # Frontend dependencies  
+├── README.md             # Project documentation  
+└── venv/                 # Virtual environment  
+    ├── Lib  
+    ├── bin  
+    ├── include  
+    └── lib  
+------ Huang Zhaomin
+
 
 
 
